@@ -1,0 +1,615 @@
+/*start rules*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+
+body {
+    width: 1340px;
+    margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Merriweather", serif;
+}
+
+p {
+    font-family: "Varta", serif;
+}
+
+/*end rules*/
+/*start nav bar & main section*/
+
+.head {
+    width: 100%;
+    height: 650px;
+    background-color: #F3EEE8;
+    display: flex;
+}
+
+.head .nav {
+    padding-top: 25px;
+    padding-left: 80px;
+}
+
+.head .nav nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F3EEE8;
+    padding: 10px;
+}
+
+.head .nav nav .icon a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    width: 140px;
+}
+
+.head .nav nav .icon a h1 {
+    text-transform: capitalize;
+    font-family: 34px;
+    font-weight: bold;
+    color: #A06056;
+    font-family: "Merriweather", serif;
+}
+
+
+.head .nav nav a img {
+    width: 50px;
+}
+
+
+.head .nav nav .lists ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    height: 100%;
+    align-items: center;
+    width: 500px;
+}
+
+
+.head .nav nav .lists ul li {
+    list-style: none;
+}
+
+.head .nav nav .lists ul li a {
+    text-decoration: none;
+    color: #706458;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+
+.head .nav nav .lists ul li a:hover {
+    color: white;
+    background-color: #A06056;
+}
+
+.head .title {
+    width: 50%;
+    height: 70%;
+}
+
+.head .chat {
+    width: 50%;
+    height: 100%;
+    background-image: url(./imges/nav/Hero.jpg);
+    background-size: cover;
+    padding-top: 42px;
+    padding-right: 80px;
+    position: relative;
+}
+
+.head .chat ul li {
+    list-style: none;
+    position: absolute;
+    right: 80px;
+}
+
+.head .chat ul li a img {
+    width: 40px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+.head .nav .title .home {
+    font-family: "Varta", serif;
+    font-size: 14px;
+    color: #A06056;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.head .nav .title {
+    width: 500px;
+}
+
+.head .nav .title h2 {
+    font-size: 60px;
+    color: #A06056;
+    margin-bottom: 40px;
+}
+
+.head .nav .title .pro {
+    font-family: "Varta", serif;
+    font-size: 15px;
+    color: #A06056;
+    margin-bottom: 30px;
+}
+
+.head .nav .title a img {
+    width: 30px;
+    background-color: #F3EEE8;
+    padding: 10px;
+    border: 1px solid #A06056;
+    border-radius: 50px;
+}
+
+/*end nav bar & main section*/
+/*start sleid section*/
+
+
+.room {
+    background-color: #F3EEE8;
+    padding: 100px 80px;
+}
+
+.room h2 {
+    font-size: 55px;
+    color: #706458;
+    margin-bottom: 50px;
+}
+
+.room .boxs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.room .boxs .title {
+    width: 20%;
+}
+
+.room .boxs .title p {
+    font-size: 18px;
+    color: #706458;
+}
+
+.room .boxs .box1,
+.room .boxs .box2 {
+    display: flex;
+    width: 40%;
+    height: 300px;
+}
+
+.room .boxs .box1 .bedroom h3 {
+    font-size: 50px;
+    color: #A06056;
+    margin-top: 50%;
+    margin-left: 50%;
+}
+
+.room .boxs .box2 .living h3 {
+    font-size: 50px;
+    color: #A06056;
+    margin-top: 50%;
+    margin-left: 70%;
+}
+
+.room .boxs .box1 .bedroom {
+    background-image: url(./imges/sleid/Background1.png);
+    background-size: cover;
+    width: 50%;
+}
+
+.room .boxs .box2 .living {
+    background-image: url(./imges/sleid/Background2.png);
+    background-size: cover;
+    width: 50%;
+}
+
+.room .boxs .box1 .new1 p,
+.room .boxs .box2 .new2 p {
+    margin-left: 25px;
+    font-size: 18px;
+    color: #706458;
+}
+
+.room .sleid {
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.room .sleid p {
+    font-size: 18px;
+    color: #706458;
+}
+
+.room .sleid a {
+    display: flex;
+    width: 45px;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #A06056;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    align-items: center;
+}
+
+.room .sleid a img {
+    width: 5px;
+    margin: 5px;
+}
+
+/*end sleid section*/
+/*start services section*/
+
+
+.services {
+    display: flex;
+    height: 650px;
+    background-color: #F3EEE8;
+}
+
+.services .contenar1 {
+    width: 48%;
+    background-image: url(./imges/services/pexels-maksgelatin-4352247.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.services .contenar1 h2 {
+    font-size: 55px;
+    color: #706458;
+    width: 500px;
+    margin-bottom: 30px;
+    text-shadow: 0 0 10px rgb(235, 230, 230);
+}
+
+.services .contenar1 a {
+    text-decoration: none;
+    width: fit-content;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+
+.services .contenar1 a img {
+    width: 5px;
+    margin: 5px;
+}
+
+.services .contenar1 a p {
+    font-size: 15px;
+    color: #A06056;
+}
+
+
+.services .contenar2,
+.services .contenar3 {
+    width: 25%;
+    height: fit-content;
+    margin: auto;
+    margin-left: 30px;
+}
+
+.services .contenar3 {
+    margin-right: 80px;
+}
+
+.services .contenar2 .box1,
+.services .contenar2 .box2 {
+    width: 90%;
+    margin: auto;
+    height: 200px;
+}
+
+.services .contenar3 .box3,
+.services .contenar3 .box4 {
+    width: 90%;
+    margin: auto;
+    height: 200px;
+}
+
+.services .contenar2 .box1 h3,
+.services .contenar2 .box2 h3,
+.services .contenar3 .box3 h3 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #A06056;
+    margin-bottom: 20px;
+}
+
+.services .contenar3 .box4 h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #A06056;
+    margin-bottom: 20px;
+}
+
+/*end services section*/
+/*start gallary*/
+
+
+.gallary {
+    margin-top: 100px;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+.gallary .head {
+    padding: 30px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+}
+
+
+.gallary .head .title h2 {
+    font-size: 35px;
+    color: #706458;
+    margin-bottom: 10px;
+}
+
+.gallary .head .title p {
+    font-size: 18px;
+    color: #706458;
+}
+
+.gallary .head .input form input {
+    background-color: #F3EEE8;
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+}
+
+
+.gallary .head .input form button {
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+}
+
+.gallary .head .input form button {
+    background-color: #534B42;
+    color: white;
+    border: 1px solid #534B42;
+}
+
+.gallary .head .input form button:hover {
+    color: #534B42;
+    background-color: white;
+}
+
+.gallary .head .title a {
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    text-decoration: none;
+}
+
+.gallary .head .title a p {
+    font-size: 15px;
+    color: #A06056;
+    margin-right: 5px;
+}
+
+.gallary .head .title a img {
+    width: 5px;
+}
+
+.gallary .imges img {
+    width: 32%;
+}
+
+.gallary .imges img:hover {
+    opacity: 0.8;
+}
+
+.gallary .imges {
+    margin-left: 6%;
+    width: 1366px;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot {
+    padding: 20px 80px;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.gallary .foot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallary .foot .h {
+    font-size: 45px;
+    color: #534B42;
+}
+
+.gallary .p p {
+    font-size: 18px;
+    color: #706458;
+}
+
+.gallary .p {
+    width: 500px;
+}
+
+.gallary .icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    width: 150px;
+}
+
+.gallary .icon p {
+    font-size: 18px;
+    color: #706458;
+}
+
+.gallary .icon a img {
+    width: 30px;
+
+}
+
+/*end gallary*/
+/*start footer*/
+
+
+footer {
+    padding: 0 80px;
+    padding-top: 80px;
+    background-color: #F3EEE8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+footer .title {
+    width: 40%;
+    height: 300px;
+}
+
+footer .title .antic {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+footer .title .antic img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+footer .title .by h3 {
+    padding: 15px 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+footer .title .icons {
+    width: fit-content;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .title .icons a {
+    display: flex;
+    align-items: center;
+    width: 130px;
+    text-decoration: none;
+    margin-bottom: 7px;
+
+}
+
+footer .title .icons a h3 {
+    font-size: 15px;
+    color: #534B42;
+}
+
+
+footer .title .icons a img {
+    width: 30px;
+    margin-right: 5px;
+
+}
+
+
+footer .Products,
+footer .Rooms,
+footer .Services,
+footer .About {
+    height: 300px;
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+footer .Products h3,
+footer .Rooms h3,
+footer .Services h3,
+footer .About h3 {
+    font-size: 25px;
+    color: #534B42;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+footer .Products ul,
+footer .Rooms ul,
+footer .Services ul,
+footer .About ul {
+    height: 70%;
+}
+
+
+footer .Products ul li,
+footer .Rooms ul li,
+footer .Services ul li,
+footer .About ul li {
+    list-style: none;
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+
+footer .Products ul li a,
+footer .Rooms ul li a,
+footer .Services ul li a,
+footer .About ul li a {
+    text-decoration: none;
+    color: #706458;
+    font-size: 18px;
+    width: fit-content;
+    padding: 5px 0;
+}
+
+footer .Products ul li a:hover,
+footer .Rooms ul li a:hover,
+footer .Services ul li a:hover,
+footer .About ul li a:hover,
+footer .title .icons a h3:hover {
+    color: #A06056;
+    border-bottom: 1px solid #A06056;
+}
+
+
+/*end footer*/
